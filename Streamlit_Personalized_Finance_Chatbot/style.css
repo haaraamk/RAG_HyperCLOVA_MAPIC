@@ -1,0 +1,78 @@
+
+
+body {
+    background-color: #2e3b4e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f2a38;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.chat-message {
+    margin: 10px 0;
+}
+
+.user-message, .assistant-message {
+    display: block; /* 블록 요소로 변경 */
+    align-items: center;
+    padding: 10px 15px;
+    max-width: 100%; /* 전체 너비 사용 */
+    margin: 10px 0; /* 구역 사이 간격 추가 */ 
+}
+
+.user-message {
+    background-color: #0078d4;
+    color: #ffffff;
+    text-align: right;
+    border-radius: 15px 15px 0 15px;
+}
+
+.assistant-message {
+    background-color: #ff8c00;
+    color: #ffffff;
+    text-align: left;
+    border-radius: 15px 15px 15px 0;
+    max-width: fit-content; /* 이 부분 제거할 것 */
+}
+
+.chat-input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #1f2a38;
+    color: #ffffff;
+}
+
+.chat-input::placeholder {
+    color: #ccc;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* 오른쪽 여백 */
+    float: left; /* 왼쪽에 배치 */
+}
+
+.user-message .avatar {
+    margin-left: 10px; /* 왼쪽 여백 */
+    float: right; /* 오른쪽에 배치 */
+}
+
+.message-content {
+    word-wrap: break-word;
+    display: block;
+    white-space: pre-wrap;
+}
+
