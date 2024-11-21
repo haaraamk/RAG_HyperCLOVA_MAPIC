@@ -1,10 +1,10 @@
 # RAG_HyperCLOVA_MAPIC
 HyperCLOVA X와 RAG 기술을 활용한 개인 맞춤형 금융 비서 MAPIC 프로젝트
 
-1. 누리봄_보고서.pdf
+누리봄_보고서.pdf
 본선 보고서
-
-2. Code
+    
+Code
 main.ipynb : 메인 코드
    
 save_DB.ipynb :  
