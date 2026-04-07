@@ -41,25 +41,6 @@
 
 ---
 
-## 💻 시작하기 (Getting Started)
-
-### 1. 환경 설정
-필요한 패키지를 설치합니다.
-```bash
-pip install -r requirements.txt
-```
-
-### 2. 데이터베이스 구축
-`save_DB.ipynb`를 실행하여 PDF 데이터를 분석하고 ChromaDB를 생성합니다.
-
-### 3. 애플리케이션 실행
-Streamlit을 통해 로컬 환경에서 챗봇을 실행합니다.
-```bash
-streamlit run Streamlit_Chatbot.py
-```
-
----
-
 ## 📄 기술 스택 (Tech Stack)
 
 * **LLM**: Naver HyperCLOVA X
@@ -72,5 +53,5 @@ streamlit run Streamlit_Chatbot.py
 ---
 
 ## 🏆 성과 및 문서
-* **보고서**: [누리봄_보고서.pdf] (본선 진출 보고서 포함)
+* **보고서**: [누리봄_보고서.pdf]
 * **특이사항**: 표 데이터(Table)의 손실 없는 벡터화 및 요약 기법 적용으로 금융 약관 등 복잡한 문서 이해도 최적화.
